@@ -37,3 +37,35 @@
 // console.log(arr7);
 
 // ↑コピーする際にイコールでコピーした場合参照が引き継がれてしまうので、NG
+
+// mapやfilterを使った配列の処理
+// 従来のfor文の場合
+// const nameArr = ["田中","山田","加藤"];
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(`${index　+　1}番目は${nameArr[index]}です。`);
+// }
+// map
+// const nameArr2 = nameArr.map((name)=>{
+//   return name;
+// });
+// console.log(nameArr2);
+
+// nameArr.map((name, index)=> console.log(`${index + 1}番目は${name}です。`));
+
+// filter（条件に合わせて出力する）
+// const numArr = [1,2,3,4,5];
+// const newNumArr = numArr.filter((num)=>{
+//   return num % 2 === 0;
+// })
+
+// console.log(newNumArr);
+
+// const newNameArr = nameArr.map((name) => {
+//  if (name === "田中") {
+//    return name;
+//  }else{
+//    return `${name}さん`;
+//  }
+// })
+
+// console.log(newNameArr);
