@@ -1,2 +1,2 @@
 # codesandbox
-Created with CodeSandbox
+モダンjavascript,Reactを学習
