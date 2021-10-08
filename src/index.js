@@ -69,3 +69,23 @@
 // })
 
 // console.log(newNameArr);
+
+/**
+ * 三項演算子
+ */
+//ある条件　？　　条件がtrueの時: 条件がfalseの時返却する
+// const value = 1 > 0 ? "true": "false"
+// console.log(value);
+
+// const num = "1300";
+// // console.log(num.toLocaleString());
+// const formatNum =
+// typeof num === 'number'? num.toLocaleString(): "数値を入力してください"
+
+// console.log(formatNum);
+
+const checkSum = (num1, num2) => {
+  return num1 + num2 > 100 ? "100を超えています" : "許容範囲内です";
+};
+
+console.log(checkSum(10, 100));
