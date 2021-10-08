@@ -44,7 +44,7 @@
 // for (let index = 0; index < nameArr.length; index++) {
 //   console.log(`${index　+　1}番目は${nameArr[index]}です。`);
 // }
-// map
+// map 配列内のすべての要素に処理を行い、その戻り値から新しい配列を作成するメソッド
 // const nameArr2 = nameArr.map((name)=>{
 //   return name;
 // });
